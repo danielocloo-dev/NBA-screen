@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Happy+Monkey&family=Orbitron:wght@400..900&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Grotesk:wght@300..700&display=swap");
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+@font-face {
+  font-family: "Digital-7";
+  src: url("digital-7.regular.ttf");
+}
+body {
+  min-height: 100vh;
+  background: lightgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: rgb(0, 0, 59);
+  width: 550px;
+  height: 350px;
+  border-radius: 20px;
+  border: 3px solid white;
+}
+.cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.screen {
+  width: 150px;
+  height: 100px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background: black;
+  border-radius: 10px;
+  font-family: "Digital-7";
+  color: #ff1744;
+  font-size: 70px;
+  font-weight: 900;
+  text-align: center;
+}
+h2 {
+  font-size: 35px;
+  font-weight: 900;
+  color: white;
+}
+button {
+  padding: 8px 10px;
+  border: 1px solid white;
+  color: white;
+  background: transparent;
+  border-radius: 5px;
+  font-size: 1rem;
+  margin: 0 5px;
+}
